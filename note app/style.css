@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:1px solid black;
+}
+body{
+    background: linear-gradient(to right, lightgreen, lightblue);
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap:20px;
+    justify-content: center;
+}
+.note{
+    resize:none;
+    height:200px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.3);
+}
+.btn{
+    height:200px;
+}
+.btn:active{
+    transform: scale(0.9);
+}
