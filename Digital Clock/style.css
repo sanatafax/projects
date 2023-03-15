@@ -1,0 +1,39 @@
+*{
+    border:0.5px solid black;
+    margin:1px;
+    padding:1px;
+    
+}
+body{
+    
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+    background-image: url(https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin:5px;
+}
+.clock span{
+background-color: slateblue;
+display:flex;
+padding:20px;
+opacity: 0.8;
+justify-content: center;
+}
+
+.clock .text{
+    margin-top: 0px;
+    
+    height:5px;
+    align-items: center;
+    background-color: darkblue;
+}
